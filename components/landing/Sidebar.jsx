@@ -1,5 +1,5 @@
 import React from 'react'
-import { GiHamburgerMenu } from "react-icons/gi";
+import { BiMenuAltLeft } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
@@ -7,9 +7,9 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 export default function Sidebar() {
   return (
     <div className=" flex flex-col col-span-1 px-2">
-          <div className="  flex justify-between items-center gap-3  p-3 text-xl">
-            <div className="cursor-pointer flex justify-center text-2xl">
-              <GiHamburgerMenu />
+          <div className="  flex justify-between items-center gap-3  p-3 text-base">
+            <div className="cursor-pointer flex justify-center font-medium text-5xl">
+              <BiMenuAltLeft />     
             </div>
             <div className="cursor-pointer hover:text-gray-300 font-mono">Home</div>
             <div className="cursor-pointer hover:text-gray-300 font-mono">Collections</div>
