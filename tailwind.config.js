@@ -3,9 +3,12 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          inter: ['Inter', 'sans-serif'],
+          anton: ['Anton', 'sans-serif'],
         },
       },
+      plugins: [
+        require('tailwind-scrollbar-hide') // add this plugin
+      ],
     },
   };
   

@@ -11,11 +11,17 @@ export default function Main() {
         <h1>KIDS</h1>
       </div>
 
-      <div className="bg-[#D9D9D9]  px-4 py-2 w-[30%] text-center">
-        <div className="flex justify-between items-center">
-          <CiSearch size={18} />
-          <h1 className="text-base">Search</h1>
+      <div className="bg-[#D9D9D9] w-[30%]  flex justify-between items-center">
+        <div className=" text-xl font-bold p-2">
+          <CiSearch />
         </div>
+        <input
+          type="search"
+          name=""
+          id=""
+          className=" w-full h-full outline-none border-none"
+        />
+        <div className=" text-sm p-2">Search</div>
       </div>
 
       <div className="flex  pt-18 gap-24 w-full">
