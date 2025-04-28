@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export default function Layout({ children }) {
   return (
     <div>
-      <div className=" flex flex-col bg-[#f5f5f5]">
+      <div className="  bg-[#f5f5f5] ">
         <div className=" w-full pt-6">
           <div className="grid grid-cols-3 w-full ">
             <div className="  flex  items-center gap-16 py-3  px-10 text-xl">
