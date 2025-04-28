@@ -1,12 +1,10 @@
 @import "tailwindcss";
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
 
 .scrollbar-hidden::-webkit-scrollbar {
     display: none;
   }
   
-  /* Hide scrollbar for IE, Edge add Firefox */
   .scrollbar-hidden {
     -ms-overflow-style: none;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none; 
   }
