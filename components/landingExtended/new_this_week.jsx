@@ -64,7 +64,7 @@ export default function Main_extended() {
         <h5 className="text-[#000E8A] text-xl font-bold mt-15">(50)</h5>
       </div>
 
-      <div className="flex gap-10 overflow-x-auto scrollbar-hidden">
+      <div className="flex gap-10 overflow-x-auto scrollbar-hidden scrollbar-hide">
         {cards.map((card, index) => (
           <div key={index} className="flex flex-col gap-3 flex-shrink-0">
             <img
